@@ -4,7 +4,9 @@
         "components/highlightjs": "^9.6",
         "silex/silex": "~2.0",
         "components/jquery": "^3.1",
-        "twbs/bootstrap": "^3.3"
+        "twbs/bootstrap": "^3.3",
+        "twig/twig": "^1.26",
+        "symfony/twig-bridge": "^3.1"
     },
     "license": "MIT",
     "authors": [

@@ -6,7 +6,15 @@
         "components/jquery": "^3.1",
         "twbs/bootstrap": "^3.3",
         "twig/twig": "^1.26",
-        "symfony/twig-bridge": "^3.1"
+        "symfony/twig-bridge": "^3.1",
+        "symfony/yaml": "3.2.x-dev",
+        "symfony/config": "3.2.x-dev",
+        "gecko-packages/gecko-silex-config-service": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kl3sk\\": "src/"
+        }
     },
     "license": "MIT",
     "authors": [

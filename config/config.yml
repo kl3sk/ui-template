@@ -1,0 +1,7 @@
+app:
+    debug: true
+    dir:
+        views: /src/View
+        controller: /src/Controller
+        web: /web
+        ui_tpl: /src/Views/tpl

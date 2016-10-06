@@ -1,0 +1,9 @@
+home:
+  path: /
+  defaults: { _controller: 'Kl3sk\Controller\DefaultController::indexAction' }
+
+dynamic:
+  path: /{path}
+  defaults: { _controller: 'Kl3sk\Controller\Index\DefaultController::routeAction' }
+  requirements:
+          path: .+
